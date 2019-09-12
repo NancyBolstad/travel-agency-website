@@ -1,0 +1,15 @@
+@import 'mixins';
+@import'variables';
+
+h1 {
+    font-family: $open-sans;
+    @include pixels-to-rem(36);
+}
+
+a {
+    color: $white;
+
+    &:hover {
+        color: $black;
+    }
+}

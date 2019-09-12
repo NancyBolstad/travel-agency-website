@@ -1,3 +1,11 @@
-@import './partials/reset';
-@import './partials/colors';
+@import './partials/variables';
 @import './partials/mixins';
+@import './partials/blocktags';
+
+body {
+    font-family: $open-sans;
+}
+
+nav {
+    background-color: $purpleBlue;
+}
