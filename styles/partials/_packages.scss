@@ -1,0 +1,23 @@
+@import 'variables';
+
+.card__item__link {
+    background-color: $orange;
+    color: $white;
+
+    &:hover {
+        color: $black;
+    }
+}
+
+.card {
+    border: 1px solid $orange;
+    border-radius: none;
+
+    a {
+        cursor: pointer;
+    }
+}
+
+.card:hover {
+    background-color: $lightOrange;
+}
