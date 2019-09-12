@@ -1,12 +1,8 @@
 @import 'variables';
 
-.cardContent__description {
+.cardContent__button {
     background-color: $orange;
     color: $white;
-
-    &:hover {
-        color: $black;
-    }
 }
 
 .cardContent {

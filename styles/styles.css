@@ -52,12 +52,9 @@ nav {
   background-color: #b8c1e1;
 }
 
-.cardContent__description {
+.cardContent__button {
   background-color: #ff9000;
   color: #ffffff;
-}
-.cardContent__description:hover {
-  color: #000000;
 }
 
 .cardContent {
