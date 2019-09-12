@@ -1,6 +1,6 @@
 @import 'variables';
 
-.card__item__link {
+.cardContent__description {
     background-color: $orange;
     color: $white;
 
@@ -9,7 +9,7 @@
     }
 }
 
-.card {
+.cardContent {
     border: 1px solid $orange;
     border-radius: none;
 
@@ -18,6 +18,6 @@
     }
 }
 
-.card:hover {
+.cardContent:hover {
     background-color: $lightOrange;
 }

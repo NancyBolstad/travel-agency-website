@@ -52,23 +52,23 @@ nav {
   background-color: #b8c1e1;
 }
 
-.card__item__link {
+.cardContent__description {
   background-color: #ff9000;
   color: #ffffff;
 }
-.card__item__link:hover {
+.cardContent__description:hover {
   color: #000000;
 }
 
-.card {
+.cardContent {
   border: 1px solid #ff9000;
   border-radius: none;
 }
-.card a {
+.cardContent a {
   cursor: pointer;
 }
 
-.card:hover {
+.cardContent:hover {
   background-color: #fdf6ec;
 }
 
