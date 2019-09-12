@@ -1,45 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
-body {
-  font-family: "Open Sans";
-  font-weight: 400;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Open Sans";
-  font-weight: 400;
-}
-
-.button {
-  font-family: "Open Sans";
-  font-weight: 800;
-}
-
-body {
-  font-family: "Open Sans";
-  font-weight: 400;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Open Sans";
-  font-weight: 400;
-}
-
-.button {
-  font-family: "Open Sans";
-  font-weight: 800;
-}
-
 h1 {
   font-family: "Open Sans";
   font-size: 36px;
