@@ -1,6 +1,10 @@
 @import 'variables';
 @import 'mixins';
 
+nav {
+    background-color: $purpleBlue;
+}
+
 .menu {
     display: flex;
     flex-direction: row;

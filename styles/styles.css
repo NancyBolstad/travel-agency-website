@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
 h1 {
   font-family: "Open Sans";
   font-size: 36px;
@@ -12,6 +13,10 @@ a {
 }
 a:hover {
   color: #000000;
+}
+
+nav {
+  background-color: #3c54a0;
 }
 
 .menu {
@@ -42,12 +47,22 @@ a:hover {
   font-size: 3rem;
 }
 
+.footer {
+  background-color: #b8c1e1;
+}
+
 body {
   font-family: "Open Sans";
 }
 
-nav {
-  background-color: #3c54a0;
+.cards__item__link,
+button[type=submit] {
+  background-color: #ff9000;
+  border: none;
+}
+.cards__item__link:hover,
+button[type=submit]:hover {
+  background-color: #000000;
 }
 
 /*# sourceMappingURL=styles.css.map */

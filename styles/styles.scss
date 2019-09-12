@@ -2,12 +2,20 @@
 @import './partials/mixins';
 @import './partials/blocktags';
 @import './partials/header';
+@import './partials/footer';
 
 
 body {
     font-family: $open-sans;
+
 }
 
-nav {
-    background-color: $purpleBlue;
+.cards__item__link,
+button[type="submit"] {
+    background-color: $orange;
+    border: none;
+
+    &:hover {
+        background-color: $black;
+    }
 }
