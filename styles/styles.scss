@@ -11,11 +11,10 @@ body {
 
 }
 
+.cardContent__button,
+.cards__item__link,
 button[type="submit"] {
     background-color: $orange;
     border: none;
-
-    &:hover {
-        background-color: $black;
-    }
+    color: $white;
 }

@@ -52,11 +52,6 @@ nav {
   background-color: #b8c1e1;
 }
 
-.cardContent__button {
-  background-color: #ff9000;
-  color: #ffffff;
-}
-
 .cardContent {
   border: 1px solid #ff9000;
   border-radius: none;
@@ -73,12 +68,12 @@ body {
   font-family: "Open Sans";
 }
 
+.cardContent__button,
+.cards__item__link,
 button[type=submit] {
   background-color: #ff9000;
   border: none;
-}
-button[type=submit]:hover {
-  background-color: #000000;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */
