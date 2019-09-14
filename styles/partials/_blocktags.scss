@@ -3,7 +3,7 @@
 
 h1 {
     font-family: $open-sans;
-    @include pixels-to-rem($h1);
+    @include pixels-to-rem($h1-pixels);
 }
 
 a {
@@ -11,5 +11,6 @@ a {
 
     &:hover {
         color: $black;
+        cursor: pointer;
     }
 }

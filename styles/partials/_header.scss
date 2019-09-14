@@ -28,6 +28,6 @@ nav {
 }
 
 .header__text--primary {
-    font-weight: 800;
-    @include pixels-to-rem($brand-name);
+    font-weight: $bold;
+    @include pixels-to-rem($brand-name-pixels);
 }

@@ -4,11 +4,7 @@
     border: 1px solid $orange;
     border-radius: none;
 
-    a {
-        cursor: pointer;
+    &:hover {
+        background-color: $lightOrange;
     }
-}
-
-.cardContent:hover {
-    background-color: $lightOrange;
 }

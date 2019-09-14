@@ -1,20 +1,9 @@
+@import './partials/typography';
 @import './partials/variables';
 @import './partials/mixins';
+@import './partials/body';
 @import './partials/blocktags';
+@import './partials/buttons';
 @import './partials/header';
 @import './partials/footer';
 @import './partials/packages';
-
-
-body {
-    font-family: $open-sans;
-
-}
-
-.cardContent__button,
-.cards__item__link,
-button[type="submit"] {
-    background-color: $orange;
-    border: none;
-    color: $white;
-}
