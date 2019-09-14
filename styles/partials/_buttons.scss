@@ -1,9 +1,10 @@
 @import 'variables';
 
 .cardContent__button,
-.cards__item__link,
+.package__button,
 button[type="submit"] {
     background-color: $orange;
     border: 1px solid $orange;
     color: $white;
+    font-weight: $bold;
 }
