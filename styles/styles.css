@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
 body {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   background-color: #ffffff;
   color: #000000;
 }
 
 h1 {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 2.25rem;
 }
 
@@ -18,9 +18,9 @@ a:hover {
   cursor: pointer;
 }
 
-.cardContent__button,
 .package__button,
-button[type='submit'] {
+.feature__button,
+button[type=submit] {
   background-color: #ff9000;
   border: 1px solid #ff9000;
   color: #ffffff;
@@ -36,6 +36,7 @@ nav {
   flex-direction: row;
   line-height: 0.5rem;
   align-content: space-between;
+  font-weight: 800;
 }
 
 .menu__item--packages {
@@ -62,11 +63,11 @@ nav {
   background-color: #b8c1e1;
 }
 
-.cardContent {
+.package {
   border: 1px solid #ff9000;
   border-radius: none;
 }
-.cardContent:hover {
+.package:hover {
   background-color: #fdf6ec;
 }
 
